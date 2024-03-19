@@ -164,8 +164,9 @@ section {
 
 #profile {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: center;
-  gap: 5rem;
+  gap: 15rem;
   height: 80vh;
 }
 
@@ -345,7 +346,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 
