@@ -580,3 +580,7 @@ section {
   color: #E0E0E0; /* Adjust text color for readability */
 }
 
+.highlight {
+  color: #76ABAE; /* Gold color for highlighting */
+  font-weight: bold; /* Optional: make keywords bold */
+}
