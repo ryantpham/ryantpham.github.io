@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="mediaqueries.css" >
   </head>
   <body>
-    <nav id="desktop-nav">
+    <nav id="desktop-nav" style="background-color: rgba(85, 85, 85, 0.030);">
       <div class="logo">Ryan Pham</div>
       <div>
         <ul class="nav-links">
@@ -40,18 +40,18 @@
 
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/ryan_copy.png" alt="Ryan Pham profile picture" />
+
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Ryan Pham</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <p class="section__text__p1">Hello there! I'm</p>
+        <h1 class="title">Ryan Pham.</h1>
+        <p class="section__text__p2">Frontend Developer & <br>Product Designer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
             onclick="window.open('./assets/resume-example.pdf')"
           >
-            Download CV
+            Resume
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
@@ -62,13 +62,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://linkedin.com/ryantpham'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="location.href='https://github.com/ryantpham'"
           />
         </div>
       </div>
@@ -83,21 +83,30 @@
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="./assets/experience.png"
+                src="./assets/designer.png"
                 alt="Experience icon"
                 class="icon"
               />
-              <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <h3>Product Designer</h3>
+              <p>Great design isn't just a pretty UI. It's about finding the goals of the user and helping them achieve it.</p>
             </div>
             <div class="details-container">
               <img
-                src="./assets/education.png"
+                src="./assets/developer.png"
                 alt="Education icon"
                 class="icon"
               />
-              <h3>Education</h3>
-              <p>UC San Diego<br />B.S Human-Computer Interaction</p>
+              <h3>Web Developer</h3>
+              <p>From pair programming on client engagements to hacking away on a passion project, I love creating products that will wow the end user.</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/engineer.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Design & Interaction Student</h3>
+              <p>Recent graduate from UC San Diego majoring in Human-Computer Interaction and Design.</p>
             </div>
           </div>
           <div class="text-container">
@@ -233,8 +242,10 @@
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
+        
         <div class="about-containers">
-          <!--Proj 1-->
+          <div class="proj-container">
+                      <!--Proj 1-->
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -243,17 +254,17 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Sketch Pad</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('https://github.com/ryantpham/etch-a-sketch', '_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('https://ryantpham.github.io/etch-a-sketch/', '_blank')"
               >
                 Live Demo
               </button>
@@ -268,17 +279,17 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">JS Calculator</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('https://github.com/ryantpham/calculator?tab=readme-ov-file', '_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('https://ryantpham.github.io/calculator/', '_blank')"
               >
                 Live Demo
               </button>
@@ -308,6 +319,7 @@
                 Live Demo
               </button>
             </div>
+          </div>
           </div>
 
 
@@ -344,8 +356,8 @@
       </div>
     </section>
     <footer>
-      <nav>
-        <div class="nav-links-container">
+      <nav class = "footer-nav">
+        <div class="nav-links-container" style="display: flex; justify-content: center;">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
@@ -354,7 +366,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 Ryan Pham. All Rights Reserved.</p>
+      <p>Copyright &#169; 2024 Ryan Pham. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>

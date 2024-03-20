@@ -38,10 +38,15 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
+    width: 50vw; /* Adjust based on viewport width */
+    height: 50vw; /* Keep height equal to width */
+    max-width: 200px; /* Maximum size to prevent it from becoming too big */
+    max-height: 200px; /* Maximum height to match the maximum width */
+    margin: 0 auto 2rem; /* Center the container horizontally and add bottom margin */
+
   }
+  
+
   .about-containers {
     margin-top: 0;
   }
@@ -67,6 +72,10 @@
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+  }
+
+  .contact-info-upper-container{
+    gap: 2rem;
   }
   .contact-info-container {
     margin: 0;
