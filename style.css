@@ -311,6 +311,12 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+  background-color: #757575;
+  border-radius: 1rem;
+  padding: 0.25rem;
+}
+.arrow:hover{
+  background-color: #E0E0E0;
 }
 
 .details-container {
