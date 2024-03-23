@@ -8,7 +8,10 @@
     flex-wrap: wrap;
   }
   #contact,
-  #projects {
+  #projects,
+  #about,
+  #experience,
+  #profile {
     height: fit-content;
   }
 }
@@ -47,6 +50,9 @@
 
   }
   
+  .proj-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+  }
 
   .about-containers {
     margin-top: 0;
@@ -54,6 +60,7 @@
 }
 
 @media screen and (max-width: 600px) {
+
   #contact,
   footer {
     height: 40vh;
@@ -109,5 +116,9 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  .proj-container {
+    grid-template-columns: 1fr;
   }
 }
