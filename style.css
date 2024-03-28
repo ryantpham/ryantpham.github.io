@@ -412,6 +412,10 @@ article .icon {
   gap: 2rem;
 }
 
+.project-info{
+  font-size: 0.9rem;
+}
+
 /* CONTACT */
 
 #contact {
